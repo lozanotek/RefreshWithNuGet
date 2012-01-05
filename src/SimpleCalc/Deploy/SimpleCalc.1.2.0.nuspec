@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.2.0</version>
+    <authors>Javier Lozano</authors>
+    <owners>jglozano</owners>
+    <dependencies>
+      <dependency id="log4net" version="1.2.11" />
+    </dependencies>
+    <id>SimpleCalc</id>
+    <title>Simple Calculator</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple calculator for all your calculatory needs.</description>
+    <summary>Simple calculator for all your calculatory needs.</summary>
+    <releaseNotes>With multiplication, division and logging!</releaseNotes>
+  </metadata>
+  <files>
+    <file src="..\SimpleCalc\bin\Debug\simpleCalc.log4net.config" target="content\simpleCalc.log4net.config" />
+    <file src="..\SimpleCalc\bin\Debug\SimpleCalc.dll" target="lib\SimpleCalc.dll" />
+  </files>
+</package>
